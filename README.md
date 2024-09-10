@@ -8,6 +8,7 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 
 <!-- toc starts -->
 
+* [circleci](#circleci)
 * [pytest](#pytest)
 * [python](#python)
 
@@ -16,6 +17,10 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 ---
 
 <!-- index starts -->
+### circleci
+
+- [Parallel jobs](https://github.com/ontowhee/til/blob/main/circleci/parallel_jobs.md) - 2024-09-10
+
 ### pytest
 
 - [Show output of print statement](https://github.com/ontowhee/til/blob/main/python/show_output_of_print_statement.md) - 2024-09-09
