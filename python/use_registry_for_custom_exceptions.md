@@ -45,6 +45,12 @@ Person.objects.create(name='Bob', age=30)
 Person.objects.create(name='Bob', age=30)
 ```
 
+The error message might look like the following:
+
+```
+IntegrityError: new row for relation "person_person" violates check consraint "person_person_name_does_not_contain_admin" DETAIL: Failing row contains (Administrator, 55).
+```
+
 Let's say you have a function that is creating instances of Person using the Faker library, and it does not restrict the input values to satisfy the db constraints. It will be bound to raise some IntegrityErrors.
 
 ```python
@@ -53,12 +59,6 @@ from faker import Faker
 def make_random_person():
     fake = Faker()
     return Person.objects.create(name=fake.name(), age=fake.random_int(0, 100))
-```
-
-The error message might look like the following:
-
-```
-IntegrityError: new row for relation "person_person" violates check consraint "person_person_name_does_not_contain_admin" DETAIL: Failing row contains (Administrator, 55).
 ```
 
 One might add a try-except clause wherever this function is called to catch the IntegrityError and return a custom exception.
