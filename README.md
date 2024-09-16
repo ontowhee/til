@@ -10,6 +10,7 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 
 * [circleci](#circleci)
 * [docker](#docker)
+* [postgres](#postrgres)
 * [pytest](#pytest)
 * [python](#python)
 
@@ -25,6 +26,10 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 ### docker
 
 * [ConnectionError](https://github.com/ontowhee/til/blob/main/docker/connection_error_due_to_missing_port.md) - 2024-09-15
+
+### postgres
+
+* [Sort by null first or last](https://github.com/ontowhee/til/blob/main/postgres/sort_by_null_first_or_last.md) - 2024-09-15
 
 ### pytest
 
