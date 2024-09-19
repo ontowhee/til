@@ -332,3 +332,9 @@ select = [
     "I",
 ]
 ```
+
+### VSCode
+Install the [ruff extension](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff) for vscode. Then open up vscode settings, and search and turn on the following:
+
+* "formatter" - Set the default to ruff.
+* "format on save" - Turn this on and ruff linter and formatter will automatically run every time you hit `CTRL + S`
