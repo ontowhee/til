@@ -13,6 +13,7 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 * [postgres](#postrgres)
 * [pytest](#pytest)
 * [python](#python)
+* [linter & formatter](#linter--formatter)
 
 <!-- toc ends -->
 
@@ -39,5 +40,9 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 
 * [Create in-memory text stream with StringIO](https://github.com/ontowhee/til/blob/main/python/in_memory_text_stream_with_stringio.md) - 2024-09-07
 * [Use registry for custom exceptions](https://github.com/ontowhee/til/blob/main/python/use_registry_for_custom_exceptions.md) - 2024-09-11
+
+### linter & formatter
+
+* [ruff examples and quick start](https://github.com/ontowhee/til/blob/main/linter-formatter/ruff-quick-start.md) - 2024-09-18
 
 <!-- index ends -->
