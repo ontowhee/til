@@ -49,7 +49,7 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 
 ### macos
 
-* [Hotkeys to switch between apps and windows](https://github.com/ontowhee/til/blob/main/hotkeys_to_switch_between_apps_and_windows.md) - 2024-09-18
+* [Hotkeys to switch between apps and windows](https://github.com/ontowhee/til/blob/main/macos/hotkeys_to_switch_between_apps_and_windows.md) - 2024-09-18
 
 ### markdown
 
