@@ -14,6 +14,7 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 * [pytest](#pytest)
 * [python](#python)
 * [linter & formatter](#linter--formatter)
+* [markdown](#markdown)
 
 <!-- toc ends -->
 
@@ -44,5 +45,9 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 ### linter & formatter
 
 * [ruff examples and quick start](https://github.com/ontowhee/til/blob/main/linter-formatter/ruff-quick-start.md) - 2024-09-18
+
+### markdown
+
+* [Create anchor tag containing ampersand](https://github.com/ontowhee/til/blob/main/markdown/create_anchor_tag_containing_ampersand.md) - 2024-09-18
 
 <!-- index ends -->
