@@ -14,6 +14,7 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 * [pytest](#pytest)
 * [python](#python)
 * [linter & formatter](#linter--formatter)
+* [macos](#macos)
 * [markdown](#markdown)
 
 <!-- toc ends -->
@@ -45,6 +46,10 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 ### linter & formatter
 
 * [ruff examples and quick start](https://github.com/ontowhee/til/blob/main/linter-formatter/ruff-quick-start.md) - 2024-09-18
+
+### macos
+
+* [Hotkeys to switch between apps and windows](https://github.com/ontowhee/til/blob/main/hotkeys_to_switch_between_apps_and_windows.md) - 2024-09-18
 
 ### markdown
 
