@@ -301,6 +301,13 @@ This was the configuration I used for the examples.
 
 ```
 # pyproject.toml
+[project]
+name = "ruff-demo"
+version = "0.0.1"
+dependencies = [
+    "ruff==0.6.5",
+]
+requires-python = ">= 3.12"
 
 [tool.ruff]
 # Allow lines to be as long as 120.
