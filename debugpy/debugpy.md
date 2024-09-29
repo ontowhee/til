@@ -86,7 +86,7 @@ test@62841875ce55:/tests/django/tests$
 Now we can set breakpoints in vscode and run our tests!
 
 ```bash
-debugpy --wait-for-client --listen 0.0.0.0:5678 ./runtests.py postgres_tests.test_array.TestSplitFormField
+test@62841875ce55:/tests/django/tests$ debugpy --wait-for-client --listen 0.0.0.0:5678 ./runtests.py postgres_tests.test_array.TestSplitFormField
 ```
 
 ## Comments
