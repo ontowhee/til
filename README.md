@@ -9,6 +9,7 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 <!-- toc starts -->
 
 * [circleci](#circleci)
+* [debugpy](#debugpy)
 * [docker](#docker)
 * [postgres](#postrgres)
 * [pytest](#pytest)
@@ -25,6 +26,10 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 ### circleci
 
 * [Parallel jobs](https://github.com/ontowhee/til/blob/main/circleci/parallel_jobs.md) - 2024-09-10
+
+### debugpy
+
+* [Setting debugpy in vscode and running tests in docker bash shell](https://github.com/ontowhee/til/blob/main/debugpy/debugpy.md) - 2024-09-29
 
 ### docker
 
