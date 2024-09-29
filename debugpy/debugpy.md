@@ -1,6 +1,6 @@
 # Setting debugpy in vscode and running tests in docker bash shell
 
-If you ever need to run tests in a container and set breakpoints in vscode, you can use the debugpy extension and package. In this example, I am developing django and running tests against different database backends using django-docker-box.
+If you ever need to run tests in a container and set breakpoints in vscode, you can use the debugpy extension and package. In this example, I am developing django and running tests against different database backends using django-docker-box, but it can be applied to other projects as well.
 
 Disclaimer: I haven't verified that these steps in this particular sequence will work. Hopefully this is enough to get going.
 
@@ -72,7 +72,7 @@ We're running django-docker-box with the bash shell and adding `-p 5678:5678` to
 We're dropping into the bash shell so we can run debugpy with the tests.
 
 ```bash
-docker-compose run -p 5678:5678 --entrypoint bash postgres-django
+docker-compose run -p 5678:5678 --entrypoint bash postgres
 ```
 
 The terminal prompt should now show that we are in the django-docker-box container for postgres:
@@ -94,5 +94,6 @@ debugpy --wait-for-client --listen 0.0.0.0:5678 ./runtests.py postgres_tests.tes
 * This is a hacky solution that hardcodes the localRoot in launch.json.
 * I don't like that the command for the test in Step 5 is rather clunky. Perhaps I can improve this with some aliases. I also don't like the dot notation for the test modules. It would be nicer to leverage the tab completion for file paths. Perhaps this can be improved with a simple script that transforms file paths into dot notation.
 * I haven't looked into how to set up tests in vscodes such that they run on the click of the file, but it would be a nice ui. Considering that django-docker-box is a separate project from django, I don't know how difficult it would be to configure such tests with the IDE. Something to consider in the future.
+* I ran into problems running `docker-compose run ... postgres`. I think the service name was conflicting with the official postgres image that I already had on my machine. I renamed the django-docker-box service to be `postgres-django` just to work around this. Not sure if this was necessary.
 
 If anyone has a different set up that is better than this, please let me know! I would love to know how to improve my development set up.
