@@ -41,7 +41,8 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 
 ### pytest
 
-* [Show output of print statement](https://github.com/ontowhee/til/blob/main/python/in_memory_text_stream_with_stringio.md) - 2024-09-09
+* [Show output of print statement](https://github.com/ontowhee/til/blob/main/pytest/show_output_of_print_statement.md) - 2024-09-09
+* [Use match argument of pytest.raises() to check exception message](https://github.com/ontowhee/til/blob/main/pytest/match_argument_of_pytest_raises.md) - 2024-10-03
 
 ### python
 
