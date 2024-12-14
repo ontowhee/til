@@ -48,6 +48,7 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 
 * [Create in-memory text stream with StringIO](https://github.com/ontowhee/til/blob/main/python/in_memory_text_stream_with_stringio.md) - 2024-09-07
 * [Use registry for custom exceptions](https://github.com/ontowhee/til/blob/main/python/use_registry_for_custom_exceptions.md) - 2024-09-11
+* [List sort in place](https://github.com/ontowhee/til/blob/main/python/list_sort_in_place.md) - 2024-12-13
 
 ### linter & formatter
 
