@@ -19,6 +19,7 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 * [linter & formatter](#linter--formatter)
 * [macos](#macos)
 * [markdown](#markdown)
+* [sql](#sql)
 
 <!-- toc ends -->
 
@@ -73,5 +74,9 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 ### markdown
 
 * [Create anchor tag containing ampersand](https://github.com/ontowhee/til/blob/main/markdown/create_anchor_tag_containing_ampersand.md) - 2024-09-18
+
+### sql
+
+* [DDL, DML, DCL, DTL](https://github.com/ontowhee/til/blob/main/sql/ddl_dml_dcl_dtl.md) - 2024-09-18
 
 <!-- index ends -->
