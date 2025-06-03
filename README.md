@@ -19,6 +19,7 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 * [linter & formatter](#linter--formatter)
 * [macos](#macos)
 * [markdown](#markdown)
+* [shell](#shell)
 * [sql](#sql)
 
 <!-- toc ends -->
@@ -74,6 +75,10 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 ### markdown
 
 * [Create anchor tag containing ampersand](https://github.com/ontowhee/til/blob/main/markdown/create_anchor_tag_containing_ampersand.md) - 2024-09-18
+
+### shell
+
+* [zprofile, zshrc, zlogin, zlogout](https://github.com/ontowhee/til/blob/main/shell/zprofile_zshrc_zlogin_zlogout.md)
 
 ### sql
 
