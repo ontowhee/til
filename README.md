@@ -52,6 +52,7 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 ### postgres
 
 * [Sort by null first or last](https://github.com/ontowhee/til/blob/main/postgres/sort_by_null_first_or_last.md) - 2024-09-15
+* [psycopg2.errors.InFailedSqlTransaction](https://github.com/ontowhee/til/blob/main/postgres/psycopg2_errors_InFailedSqlTransaction.md) - 2026-01-28
 
 ### pytest
 
@@ -78,10 +79,10 @@ My Today I Learned repo. Inspired by [williln/til](https://github.com/williln/ti
 
 ### shell
 
-* [zprofile, zshrc, zlogin, zlogout](https://github.com/ontowhee/til/blob/main/shell/zprofile_zshrc_zlogin_zlogout.md)
+* [zprofile, zshrc, zlogin, zlogout](https://github.com/ontowhee/til/blob/main/shell/zprofile_zshrc_zlogin_zlogout.md) - 2025-06-02
 
 ### sql
 
-* [DDL, DML, DCL, DTL](https://github.com/ontowhee/til/blob/main/sql/ddl_dml_dcl_dtl.md) - 2024-09-18
+* [DDL, DML, DCL, DTL](https://github.com/ontowhee/til/blob/main/sql/ddl_dml_dcl_dtl.md) - 2025-05-26
 
 <!-- index ends -->
